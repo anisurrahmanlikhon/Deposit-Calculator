@@ -89,7 +89,7 @@ function bank(sum, years, percent) {
     sum += (sum * percent)
   }
   resultInput.classList.add('is-show');
-  return resultInput.innerText = (Math.round(sum).toLocaleString('ru-RU')) + " " + "руб";
+  return resultInput.innerText = (Math.round(sum).toLocaleString('ru-RU')) + " " + "টাকা";
 }
 
 function erase() {
