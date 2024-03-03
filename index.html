@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <div class="counter__container" id="divStart">
+          <label class="counter__label-sum" for="sum">Введите сумму:</label>
+          <input
+            class="counter__input-sum"
+            id="sum"
+            type="number"
+            name="sum"
+            placeholder="Сумма"
+          />
+          <br />
+          <label class="counter__label-years" for="years"
+            >На сколько лет?</label
+          >
+          <input
+            class="counter__input-years"
+            type="number"
+            name="years"
+            id="years"
+            placeholder="Проложлительность"
+          />
+          <br />
+          <label class="counter__label-percent" for="percent"
+            >Под какой процент годовых?</label
+          >
+          <input
+            class="counter__input-percent"
+            type="number"
+            name="percent"
+            id="percent"
+            placeholder="Процентная ставка в год"
+          />
+          <div class="buttons_container">
+            <button class="counter__button-count" id="count">Рассчитать</button>
+            <button class="counter__button-erase" id="erase">Сбросить</button>
+          </div>
+        </div>
+      </form>
+      <div class="result__container" id="divFinish">
+        <h3 class="result__header-text">Вы получите:</h3>
+        <h4 class="result__input-result" id="result" />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
