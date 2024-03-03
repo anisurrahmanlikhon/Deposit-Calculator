@@ -13,54 +13,54 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title> Interest Calculator</title>
+    <title> ডিপোজিট ক্যালকুলেটর</title>
   </head>
   <body>
     <div class="wrapper">
       <form action="">
         <div class="counter__container" id="divStart">
-          <label class="counter__label-sum" for="sum">Введите сумму:</label>
+          <label class="counter__label-sum" for="sum">টাকার পরিমান:</label>
           <input
             class="counter__input-sum"
             id="sum"
             type="number"
             name="sum"
-            placeholder="Сумма"
+            placeholder="টাকার পরিমাণ বসান"
           />
           <br />
           <label class="counter__label-years" for="years"
-            >На сколько лет?</label
+            >বছরের পরিমান:</label
           >
           <input
             class="counter__input-years"
             type="number"
             name="years"
             id="years"
-            placeholder="Проложлительность"
+            placeholder="বছরের পরিমাণ বসান"
           />
           <br />
           <label class="counter__label-percent" for="percent"
-            >Под какой процент годовых?</label
+            >শতাংশের পরিমাণ:</label
           >
           <input
             class="counter__input-percent"
             type="number"
             name="percent"
             id="percent"
-            placeholder="Процентная ставка в год"
+            placeholder="শতাংশের পরিমান বসান"
           />
           <div class="buttons_container">
-            <button class="counter__button-count" id="count">Рассчитать</button>
-            <button class="counter__button-erase" id="erase">Сбросить</button>
+            <button class="counter__button-count" id="count">হিসাব করুন</button>
+            <button class="counter__button-erase" id="erase">রিসেট করুন</button>
           </div>
         </div>
       </form>
       <div class="result__container" id="divFinish">
-        <h3 class="result__header-text">Вы получите:</h3>
+        <h3 class="result__header-text">আপনার ডিপোজিট:</h3>
         <h4 class="result__input-result" id="result" />
       </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
