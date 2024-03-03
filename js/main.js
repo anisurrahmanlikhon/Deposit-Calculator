@@ -16,7 +16,7 @@ percentInput.addEventListener('keyup',() => { handleError(percentInput, 'errorPe
 function disabledButton() {
   countButton.disabled = true; 
   countButton.setAttribute('class', 'counter__button-disabled');
-  countButton.setAttribute('title', 'Введите все поля корректно');
+  countButton.setAttribute('title', 'Put all info with correctly ');
 }
 
 function enabledButton() {
