@@ -45,7 +45,7 @@ function handleError(inputType, errorInput) {
       const errorText = document.createElement('p');
       errorText.setAttribute('id', `${errorInput}`);
       errorText.classList.add('error__input');
-      errorText.innerText = 'Введите данное поле';
+      errorText.innerText = 'কাঙ্খিত কিছু বসাননি';
       inputType.after(errorText);  
       inputType.classList.add('is-error');
     }
